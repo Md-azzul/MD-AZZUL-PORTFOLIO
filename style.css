@@ -99,6 +99,8 @@ header {
 
 .btn:hover {
   opacity: 0.9;
+  /* background-color: ;
+  color:  black; */
 }
 
 .home-content .name .fas {
