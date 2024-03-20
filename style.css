@@ -101,6 +101,10 @@ header {
   opacity: 0.9;
 }
 
+.home-content .name .fas {
+  padding: 0.5rem;
+  
+}
 .angle-down-icon {
   position: absolute;
   bottom: 10%;
