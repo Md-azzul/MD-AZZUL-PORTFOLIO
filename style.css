@@ -94,6 +94,7 @@ header {
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .btn:hover {
