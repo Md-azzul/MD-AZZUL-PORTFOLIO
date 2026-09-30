@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Azzul | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Mohamed Azzul, a full stack developer building responsive web apps with React, JavaScript, Python and MySQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="brand">Md. Azzul</a>
+  <button class="menu-btn" id="menu-btn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  <nav id="nav-links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-kicker reveal-load">Full stack developer</p>
+      <h1>
+        <span class="line"><span>Mohamed</span></span>
+        <span class="line"><span>Azzul</span></span>
+      </h1>
+      <p class="hero-sub reveal-load">I build fast, responsive web apps, from the React interface to the MySQL tables behind it.</p>
+      <div class="hero-actions reveal-load">
+        <a class="btn" href="#projects">See my work</a>
+        <a class="btn btn-ghost" href="Mohamed Azzul_Full Stack Developer_2 Years Experience_Resume.pdf" target="_blank" rel="noopener">View resume</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="browser reveal-load" aria-hidden="true">
+      <div class="browser-bar">
+        <i></i><i></i><i></i>
+        <span class="url">techmart.store</span>
+        <span class="cart">🛒 <b id="mock-count">0</b></span>
+      </div>
+      <div class="browser-body" id="mock-grid">
+        <div class="mock-card"><span>🎧</span><em>Headphones</em><small>$199</small></div>
+        <div class="mock-card"><span>⌚</span><em>Smart Watch</em><small>$299</small></div>
+        <div class="mock-card"><span>📷</span><em>Camera</em><small>$749</small></div>
+        <div class="mock-card"><span>⌨️</span><em>Keyboard</em><small>$129</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section reveal">
+    <h2>About</h2>
+    <div class="about-grid">
+      <p>I am a web developer with two years of hands-on experience designing, building and maintaining responsive websites and web applications. I care about clean interfaces, accessible markup and code that other developers can pick up without a handover meeting.</p>
+      <ul class="facts">
+        <li><strong>2 years</strong> building production web apps</li>
+        <li><strong>React, JS, Python</strong> across front and back end</li>
+        <li><strong>MCA, Generative AI</strong> at SRM from 2026</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience" class="section reveal">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <article class="job">
+        <p class="when">09/2024 to 08/2026<br>Bengaluru, India</p>
+        <div>
+          <h3>Full Stack Developer</h3>
+          <p class="org">VisionQuest Solutions Pvt Ltd</p>
+          <ul>
+            <li>Built responsive web applications with HTML, CSS, Bootstrap and JavaScript, plus interactive UI components in ReactJS and jQuery.</li>
+            <li>Added client-side validation and dynamic features, and helped with Python back-end work.</li>
+            <li>Managed MySQL operations and query optimization, and customized WordPress sites.</li>
+            <li>Debugged, tested and tuned performance across browsers and devices.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="job">
+        <p class="when">02/2024 to 08/2024<br>Chennai, India</p>
+        <div>
+          <h3>Full Stack Developer Intern</h3>
+          <p class="org">Techienutpam</p>
+          <ul>
+            <li>Helped develop and maintain responsive sites in HTML, CSS and JavaScript with cross-browser compatibility.</li>
+            <li>Worked with developers on user-friendly UI components and supported testing, debugging and deployment.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
+    <div class="projects">
+      <article class="project featured">
+        <div class="project-art">🛒</div>
+        <div class="project-body">
+          <h3>TechMart storefront</h3>
+          <p>A working e-commerce front end with login and sign-up, 24 products with category filters, a live cart with quantities and totals, and About and Contact pages.</p>
+          <p class="tags">HTML · CSS · JavaScript</p>
+          <div class="project-links">
+            <a class="btn" href="https://tech-marts.netlify.app/" target="_blank" rel="noopener">Open live demo</a>
+            <a class="btn btn-ghost" href="https://github.com/Md-azzul/Techmart_project" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-art">📦</div>
+        <div class="project-body">
+          <h3>Inventory Management System</h3>
+          <p>Connects warehouse operations with digital tracking to cut stock errors. A real-time dashboard charts stock value, low-stock alerts and recent transactions, with full product, category and supplier management, filtering and search.</p>
+          <p class="tags">ReactJS · Redux · MySQL</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-art">🛍️</div>
+        <div class="project-body">
+          <h3>Guess</h3>
+          <p>A responsive e-commerce website with interactive UI components and client-side validation, built to work across browsers and screen sizes.</p>
+          <p class="tags">HTML · CSS · Bootstrap · JavaScript · jQuery</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section reveal">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+      <div><h3>Frontend</h3><p class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>ReactJS</span><span>Bootstrap</span><span>jQuery</span></p></div>
+      <div><h3>Backend</h3><p class="chips"><span>Python (basics)</span></p></div>
+      <div><h3>Database</h3><p class="chips"><span>MySQL</span></p></div>
+      <div><h3>CMS</h3><p class="chips"><span>WordPress</span></p></div>
+      <div><h3>Tools</h3><p class="chips"><span>VS Code</span><span>GitHub</span><span>Microsoft Office</span></p></div>
+    </div>
+  </section>
+
+  <section id="education" class="section reveal">
+    <h2>Education and certificates</h2>
+    <div class="edu-grid">
+      <div>
+        <p class="when">06/2026 to 05/2028</p>
+        <h3>MCA, Generative AI</h3>
+        <p class="org">SRM Institute of Science &amp; Technology, Chennai</p>
+      </div>
+      <div>
+        <p class="when">07/2020 to 05/2023</p>
+        <h3>BCA, Computer Application</h3>
+        <p class="org">Mohamed Sathak College of Arts and Science, Chennai</p>
+      </div>
+      <div>
+        <p class="when">Certificates</p>
+        <ul class="plain">
+          <li>Full Stack Developer, School of Techies</li>
+          <li>Python, MagicBus (NIIT Foundation)</li>
+          <li>Inventory Management System workshop, New Infotech Solutions</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact reveal">
+    <h2>Let's work together</h2>
+    <p>Open to full stack and front-end roles. The fastest way to reach me is email.</p>
+    <a class="big-mail" href="mailto:mohamedazzul16@gmail.com">mohamedazzul16@gmail.com</a>
+    <p class="resume-actions">
+      <!-- <a class="btn" href="Mohamed Azzul_Full Stack Developer_2 Years Experience_Resume.pdf" target="_blank" rel="noopener">View resume</a> -->
+      <a class="btn btn-ghost" href="Mohamed Azzul_Full Stack Developer_2 Years Experience_Resume.pdf" download>Download PDF</a>
+    </p>
+    <p class="contact-links">
+      <!-- <a href="https://wa.me/+971545365236">+971 54 536 5236</a> -->
+      <a href="http://wa.me/+971545365236" class="phone-link"><span class="cc"><svg class="flag" viewBox="0 0 24 16" role="img" aria-label="UAE flag">
+        <rect width="24" height="16" fill="#fff"/>
+        <rect width="24" height="5.34" fill="#00732f"/>
+        <rect y="10.66" width="24" height="5.34" fill="#000"/>
+        <rect width="6.4" height="16" fill="#ff0000"/>
+      </svg>+971</span>54 536 5236</a>      
+      <a href="https://github.com/Md-azzul" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/mohamed-azzul-6a7748244" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </section>
+</main>
+
+<footer class="footer">&copy; <span id="year">2026</span> Mohamed Azzul</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
